@@ -23,17 +23,17 @@
             Master Data
         </p>
 
-        <a href="#"
+        <a href="{{ route('products.index') }}"
             class="block px-6 py-3 hover:bg-gray-800">
             📦 Produk
         </a>
 
-        <a href="#"
+        <a href="{{ route('categories.index') }}"
             class="block px-6 py-3 hover:bg-gray-800">
             📂 Kategori
         </a>
 
-        <a href="#"
+        <a href="{{ route('suppliers.index') }}"
             class="block px-6 py-3 hover:bg-gray-800">
             🚚 Supplier
         </a>

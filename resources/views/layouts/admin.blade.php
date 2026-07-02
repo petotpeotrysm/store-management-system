@@ -28,17 +28,17 @@
                     🏠 Dashboard
                 </a>
 
-                <a href="#"
+                <a href="{{ route('products.index') }}"
                     class="block px-6 py-3 mx-2 rounded-lg hover:bg-slate-700">
                     📦 Produk
                 </a>
 
-                <a href="#"
+                <a href="{{ route('categories.index') }}"
                     class="block px-6 py-3 mx-2 rounded-lg hover:bg-slate-700">
                     📁 Kategori
                 </a>
 
-                <a href="#"
+                <a href="{{ route('suppliers.index') }}"
                     class="block px-6 py-3 mx-2 rounded-lg hover:bg-slate-700">
                     🚚 Supplier
                 </a>
